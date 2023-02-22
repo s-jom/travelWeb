@@ -1,0 +1,52 @@
+/**
+* Your CSS here
+**/
+
+body{
+    background-color: aquamarine;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    
+  }
+
+li {
+    list-style-type: none;
+    margin-bottom: 2em;
+    padding: 0;
+    
+  }
+
+  a {
+    background-color: grey;
+    color: rgb(0, 0, 0);
+    padding: 1em 1.5em;
+    
+  }
+  a :hover {
+    background-color: rgb(138, 28, 28);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+    padding: 1em 1.5em;
+  }
+
+  img{
+    margin-bottom: 2em;
+  }
+
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
